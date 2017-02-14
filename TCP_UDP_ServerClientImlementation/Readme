@@ -1,0 +1,34 @@
+Steps to run:
+
+*****************************************************************************
+1) Please run make file from the code directory using this command to compile all the files submitted for the Homework 1:
+	cd 32_010466651_HW1
+	32_010466651_HW1>make 
+*****************************************************************************	
+2) For question 1, please run this command to see the output:
+	cd 32_010466651_HW1
+	32_010466651_HW1> sudo ./processThreads 
+
+*****************************************************************************	
+3) For question 2, please run this command to see the output:
+	cd 32_010466651_HW1
+	32_010466651_HW1> sudo ./execvExecution 
+
+3) For question 4 in client and server models, please run below commands to see out put
+	a. TCP-based server/client:
+		cd 32_010466651_HW1
+		32_010466651_HW1> sudo ./TCPServer  12003
+Open another terminal window for the client:
+		cd 32_010466651_HW1
+		32_010466651_HW1> sudo ./TCPClient  localhost 12003
+Now observe the messages passed between two terminals. 
+	
+b. UDP-based server/client:
+		cd 32_010466651_HW1
+		32_010466651_HW1> sudo ./UDPServer  12005
+Open another terminal window for the client:
+		cd 32_010466651_HW1
+		32_010466651_HW1> sudo ./UDPClient  localhost 12005
+Now observe the messages passed between two terminals.  After Observing, the Server is still running in this case as I have included a while loop. You can stop the server using “control c”  command.
+
+*****************************************************************************	

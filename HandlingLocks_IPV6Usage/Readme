@@ -1,0 +1,36 @@
+Steps to run:
+
+*****************************************************************************
+1) Please run make file from the code directory using this command to compile all the files submitted for the Homework 3:
+	cd 34_010466651_HW3
+	34_010466651_HW3>make 
+*****************************************************************************	
+2) For question 1, please run this command to see the output:
+a.	cd 34_010466651_HW3
+		34_010466651_HW3> sudo ./raceCond 
+b.	34_010466651_HW3> sudo ./raceCond2
+Please enter the multiplication factor on prompt on the terminal. 
+*****************************************************************************	
+3) For question 2, please run this command to see the output:
+34_010466651_HW3> sudo ./ semaphoreUsage
+ Please enter the multiplication factor on prompt on the terminal. 
+
+*****************************************************************************	
+4) For question 3, please run this command to see the output:
+34_010466651_HW3> sudo ./ setGetOptions
+
+5) For question 4 in client and server models for IPV4 and IPV6, please run below commands to see out put
+	a. Run server:
+		 34_010466651_HW3> sudo ./ dtServer 12006
+	
+b. Run IPV4 Client:
+  	In new terminal
+		34_010466651_HW3> sudo ./ dtClientIP4 12006
+
+		
+ c. . IPV6 Test:
+Stop the server and run the server again using 
+34_010466651_HW3> sudo ./ dtServer 12007
+In new terminal
+		34_010466651_HW3> sudo ./dtClientIP6 12007
+*****************************************************************************	

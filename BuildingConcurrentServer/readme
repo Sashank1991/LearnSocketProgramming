@@ -1,0 +1,49 @@
+
+Steps to run:
+
+*****************************************************************************
+1) Please run make file from the code directory using this command to compile all the files submitted for the Homework 2:
+	cd 34_010466651_HW2
+	34_010466651_HW2>make 
+
+2) For question 1 in client and server models, please run below commands to see out put
+(1)	Use fork ( )
+		cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Q1_1  12003
+Open another terminal window for the client:
+		cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Client  localhost 12003
+	Now it will ask for the message to be passed to server initially. Once we enter message, it is passed to server and will be displayed on server terminal. In return a message is passed which is displayed on client screen along with processed time.
+(2)	 Use select ( )
+		cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Q1_2  12004
+Open another terminal window for the client:
+		cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Client  localhost 12004
+		Now it will ask for the message to be passed to server initially. Once we enter message, it is passed to server and will be displayed on server terminal. In return a message is passed which is displayed on client screen along with processed time.
+
+(3)	Use fcntl ( )
+		cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Q1_3  12005
+Open another terminal window for the client:
+		cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Client  localhost 12005
+		Now it will ask for the message to be passed to server initially. Once we enter message, it is passed to server and will be displayed on server terminal. In return a message is passed which is displayed on client screen along with processed time.
+
+(4)	Use pthreads ( )
+		cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Q1_4  12006
+Open another terminal window for the client:
+		cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Client  localhost 12006
+		Now it will ask for the message to be passed to server initially. Once we enter message, it is passed to server and will be displayed on server terminal. In return a message is passed which is displayed on client screen along with processed time.
+*****************************************************************************	
+3) For question 2 in client and server models, please run below commands to see out put
+
+cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Q2  12007
+Open another terminal window for the client:
+		cd 34_010466651_HW2
+		34_010466651_HW2> sudo ./34_HW2_Client  localhost 12007
+		Now it will ask for the message to be passed to server initially. Once we enter message, it is passed to server. In return a time stamp of current time is passed which is displayed on client screen along with processed time.
+
